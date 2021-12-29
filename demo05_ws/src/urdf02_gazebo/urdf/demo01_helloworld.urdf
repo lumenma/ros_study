@@ -1,0 +1,33 @@
+<robot name="mycar">
+    <link name="base_link">
+        <!-- Visualization part -->
+        <visual>
+            <geometry>
+                <box size="0.5 0.3 0.1"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="yellow">
+                <color rgba="0.5 0.3 0.0 0.5"/>
+            </material>
+        </visual>
+        <!-- 1.Collision parameters -->
+        <!-- If it is standard geometry,Direct copy visual de geometry origin -->
+        <collision>
+            <geometry>
+                <box size="0.5 0.3 0.1"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </collision>
+        <!-- 2.Inertia matrix-->
+        <inertial>
+            <origin xyz="0.0 0.0 0.0"/>
+            <mass value="2.0"/>
+            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="1.0" izz="1.0"/>
+        </inertial>
+    </link>
+    <!-- gazebo has its own color setting label -->
+    <gazebo reference="base_link" >
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+</robot>
