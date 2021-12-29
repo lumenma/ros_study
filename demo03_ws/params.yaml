@@ -1,0 +1,11 @@
+length: 0.5
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_lumenma__38503: 'http://lumenma:38503/'}
+rosversion: '1.12.17
+
+  '
+run_id: 6057f890-ee79-11eb-abec-1cbfce8aff50
+width: 0.4

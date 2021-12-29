@@ -1,0 +1,18 @@
+background_b: 255
+background_g: 86
+background_r: 69
+bg_B: 255
+bg_G: 50
+bg_R: 100
+my_turtle: {bg_B: 255, bg_G: 50, bg_R: 100, param_B: 3.14}
+param_A: 100
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_lumenma__38039: 'http://lumenma:38039/', host_lumenma__40849: 'http://lumenma:40849/',
+    host_lumenma__46541: 'http://lumenma:46541/'}
+rosversion: '1.12.17
+
+  '
+run_id: 05a0b5b6-efa2-11eb-9313-1cbfce8aff50
